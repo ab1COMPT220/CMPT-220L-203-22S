@@ -1,0 +1,7 @@
+package com.company; /*IntelliJ wanted me to use this package name */
+
+class Main {
+    public static void main(String args[]){
+        System.out.println("Hello World");
+    }
+}
