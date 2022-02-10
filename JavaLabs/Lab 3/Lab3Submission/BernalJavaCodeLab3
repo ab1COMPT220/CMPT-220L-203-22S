@@ -1,0 +1,95 @@
+package base;
+
+class IfDemo {
+    public static void main(String[] args)
+    {
+        String str = "First string ";
+        int i = 100;
+
+        if (i == 100) {
+            i++;
+            System.out.println(str);
+        }
+
+        System.out.println("i = " + i);
+    }
+}
+class ifDemo1  {
+    public static void main(String[] args) {
+        int i = 100;
+
+        if (i > 110) {
+            System.out.println("The if statement succeeded!");
+        }
+
+        else {
+            System.out.println("The else statement prevailed!");
+        }
+
+    }
+}
+class ifDemo2  {
+    public static void main(String[] args) {
+        int i = 100;
+
+        if (i > 110) {
+            System.out.println("The if statement succeeded!");
+        }
+
+        else if(i == 100) {
+            System.out.println("My man triggered the else if statement!");
+        }
+
+        else {
+            System.out.println("The else statement prevailed!");
+        }
+
+    }
+}
+class ifDemo3  {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+
+        if (a > b) {
+            System.out.println("The if statement succeeded!");
+        }
+
+        else {
+            System.out.println("The else statement prevailed!");
+        }
+
+    }
+}
+class ifDemo4  {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+        int c = 15;
+
+        if (a > b && a > c ) {
+            System.out.println("The if statement succeeded!");
+        }
+
+        else {
+            System.out.println("The else statement prevailed!");
+        }
+
+    }
+}
+class ifDemo5  {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+        int c = 15;
+
+        if (c > b || c > a ) {
+            System.out.println("The if statement succeeded!");
+        }
+
+        else {
+            System.out.println("The else statement prevailed!");
+        }
+
+    }
+}
