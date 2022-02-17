@@ -2,7 +2,7 @@ package base;
 
 public class Main {
     /**
-     * # Lab Two
+     * # Lab Three
      *
      * Ok for this lab we're going to reiterate a lot of the things that we went over in class.
      *
