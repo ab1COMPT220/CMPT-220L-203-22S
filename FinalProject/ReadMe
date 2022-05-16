@@ -1,1 +1,9 @@
+This program is simple to use. It is a binary search tree that has 11 initial nodes. 
+This program utilizes a multitude of functions:
 
+The first one being a find node function, which finds the desired node. 
+The second one being a remove node function, also self explanatory. This function removes the desired node from tree. 
+After the node is removed, the tree will conclude with 10 nodes. 
+There is also a binary search function as well. 
+
+The final function displays the minimum and maximum value (node) within the tree. 
