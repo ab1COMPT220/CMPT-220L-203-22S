@@ -5,15 +5,15 @@ public class Main {
 
 		removeNode mytree = new removeNode();
 
-    mytree.addNode(8, "Bears");
+    		mytree.addNode(8, "Bears");
                 
 		mytree.addNode(10, "Seahawks");
                 
-    mytree.addNode(15, "Giants");
+    		mytree.addNode(15, "Giants");
 
 		mytree.addNode(25, "Redskins");
                 
-    mytree.addNode(40, "Titans");
+  		mytree.addNode(40, "Titans");
 
 		mytree.addNode(50, "Eagles");
 
@@ -21,11 +21,11 @@ public class Main {
 
 		mytree.addNode(65, "Ravens");
                 
-    mytree.addNode(80, "Chiefs");
+    		mytree.addNode(80, "Chiefs");
 
 		mytree.addNode(85, "Chargers");
                 
-    mytree.addNode(95, "Bills");
+   		mytree.addNode(95, "Bills");
 
                 //remove desired element
 		mytree.remove(40);
